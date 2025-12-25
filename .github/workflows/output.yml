@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Output Message
-        run: echo "${ toJSON (GITHUB_WORKFLOW)} workflow has been triggered!"
+        run: echo "${{ toJSON (github) }}"
