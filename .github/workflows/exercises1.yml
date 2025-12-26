@@ -19,7 +19,7 @@ jobs:
       - name: Install Dependecies
         run: npm ci
       - name: Test Step
-        run: npm run Test
+        run: npm run test
   Lint:
     needs: [Deploy, Test]
     runs-on: ubuntu-latest
